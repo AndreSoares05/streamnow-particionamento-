@@ -1,0 +1,15 @@
+-- Inserindo dados em usuarios (partições são automáticas)
+INSERT INTO usuarios (nome, pais, data_cadastro, plano)
+VALUES
+('Marcos', 'Brasil', '2024-03-15', 'Premium'),
+('Mikael', 'EUA', '2024-11-10', 'Free'),
+('Ana', 'México', '2025-02-05', 'Family'),
+('Lucas', 'Brasil', '2025-06-20', 'Premium');
+
+-- Inserindo dados em reproducoes
+INSERT INTO reproducoes ( data_reproducao, duracao_segundos, categoria)
+VALUES
+( '2024-04-10', 3600, 'Filme'),
+( '2024-09-12', 1800, 'Série'),
+( '2025-02-15', 2400, 'Documentário'),
+( '2025-06-01', 3000, 'Infantil');
